@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Уведомление о новом обращении</title>
+</head>
+<body>
+  <h1>Получена новая заявка с сайта</h1>
+  <p>
+    Заявка пришла со страницы: {{ url }}
+  </p>
+  <div>
+    <strong>Имя:</strong>
+    <span>{{ name }}</span>
+  </div>
+  <div>
+    <strong>Email:</strong>
+    <span>{{ email }}</span>
+  </div>
+  <div>
+    <strong>Телефон:</strong>
+    <span>{{ phone }}</span>
+  </div>
+  <div>
+    <strong>Сообщение:</strong>
+    <span>{{ text }}</span>
+  </div>
+</body>
+</html>
